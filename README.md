@@ -20,7 +20,7 @@
 | Caching	|	IDistributedCache interface	|	 |
 | Data Protection	|	Data Protection extensions	|	 |
 | Avoid blocking calls	|	Asynchronous APIs	|	|
-| Complete long-running Tasks outside of HTTP requests	|	SignalR	|	|
+| Complete long-running Tasks outside of HTTP requests	|	Job Scheduler (like Hangfire/Quartz.NET/SignalR/etc.)	|	|
 
 
 
