@@ -1,6 +1,5 @@
 # Concerns of REST API Architecture Design
-Concerns of REST API Architecture Design
-While designing architecture of REST API, we need to consider following areas
+### While designing architecture of REST API, we need to consider following areas
 | Areas	| .NET	| Node.js	|
 | ----- | ----- | -----	| 
 | API	Security	|	JWT Authentication	|	|	 
