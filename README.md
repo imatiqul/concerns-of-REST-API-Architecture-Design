@@ -9,7 +9,7 @@
 | Using DTOs (Object to Object Mapper)	|	AutoMapper	|	TypeORM |
 | CORS Policy	|	CORS with named policy and middleware	|	Nestjs CORS |
 | Health Check	|	Health Checks Middleware and Use watchdogs	|	Healthchecks (Terminus) |
-| Dependency Injection	|	Built-in service container	|	 |
+| Dependency Injection	|	Built-in service container	|	Built-in DI |
 | Logging	|	Opentelemetry.NET	| Nestjs-OpenTelemetry	 |
 | ORM	|	EF Core	|	TypeORM |
 | CQRS pattern	|	MassTransit or MediatR	| Nestjs CQRS	 |
