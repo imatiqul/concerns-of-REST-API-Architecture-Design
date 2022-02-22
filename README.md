@@ -2,25 +2,25 @@
 ### While designing architecture of REST API, we need to consider following areas
 | Areas	| .NET	| Node.js	|
 | ----- | ----- | -----	| 
-| API	Security	|	JWT Authentication	|	|	 
-| API Versioning	|	Microsoft AspNetCore Versioning	| |
-| API Validation	|	FluentValidation	|	 |
-| API Documentation	|	NSwag	| 	 |
-| Using DTOs (Object to Object Mapper)	|	AutoMapper	|	 |
-| CORS Policy	|	CORS with named policy and middleware	|	 |
-| Health Check	|	Health Checks Middleware and Use watchdogs	|	 |
+| API	Security	|	JWT Authentication	| Nestjs JwtModule	|	 
+| API Versioning	|	Microsoft AspNetCore Versioning	| Nestjs URL Versioning |
+| API Validation	|	FluentValidation	|	Nestjs ValidationPipe |
+| API Documentation	|	NSwag	| Nestjs OpenApi |
+| Using DTOs (Object to Object Mapper)	|	AutoMapper	|	TypeORM |
+| CORS Policy	|	CORS with named policy and middleware	|	Nestjs CORS |
+| Health Check	|	Health Checks Middleware and Use watchdogs	|	Healthchecks (Terminus) |
 | Dependency Injection	|	Built-in service container	|	 |
-| Logging	|	Opentelemetry.NET	|	 |
-| ORM	|	EF Core	|	 |
-| CQRS pattern	|	MassTransit or MediatR	|	 |
-| JSON Serialization	|	System.Text.Json or Json.NET	|	 |
-| Cross-cutting API calls	|	Refit	|	 |
-| Handle Errors Globally	| 	Exception Handling Middleware	|	 |
-| Keep common code paths fast	|	Middleware components	|	 |
-| Caching	|	IDistributedCache interface	|	 |
-| Data Protection	|	Data Protection extensions	|	 |
-| Avoid blocking calls	|	Asynchronous APIs	|	|
-| Complete long-running Tasks outside of HTTP requests	|	Job Scheduler (like Hangfire/Quartz.NET/SignalR/etc.)	|	|
+| Logging	|	Opentelemetry.NET	| Nestjs-OpenTelemetry	 |
+| ORM	|	EF Core	|	TypeORM |
+| CQRS pattern	|	MassTransit or MediatR	| Nestjs CQRS	 |
+| JSON Serialization	|	System.Text.Json or Json.NET	|	class-transformer |
+| Cross-cutting API calls	|	Refit	|	Nestjs ClientProxy |
+| Handle Errors Globally	| 	Exception Handling Middleware	|	useGlobalFilters |
+| Keep common code paths fast	|	Middleware components	|	Middleware |
+| Caching	|	IDistributedCache interface	|	Nestjs Caching |
+| Data Protection	|	Data Protection extensions	|	Nestjs Security |
+| Avoid blocking calls	|	Asynchronous APIs	| Asynchronous providers	|
+| Complete long-running Tasks outside of HTTP requests	|	Job Scheduler (like Hangfire/Quartz.NET/SignalR/etc.)	| Nestjs Schedule	|
 
 
 
